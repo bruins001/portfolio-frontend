@@ -1,0 +1,17 @@
+name: Lint Code Base
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Proof HTML
+        uses: anishathalye/proof-html@v2.1.2
+        with:
+        # The directory to scan
+          directory: 
+            - "./"
