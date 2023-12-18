@@ -1,0 +1,8 @@
+          - name: Proof HTML
+  # You may pin to the exact commit or the version.
+  # uses: anishathalye/proof-html@7dc4ab1eb4b36b12d0012657111b180770867139
+  uses: anishathalye/proof-html@v2.1.2
+  with:
+    # The directory to scan
+    directory: 
+      - ./
