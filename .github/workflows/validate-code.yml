@@ -13,5 +13,4 @@ jobs:
         uses: anishathalye/proof-html@v2.1.2
         with:
         # The directory to scan
-          directory: 
-            - "./"
+          directory: ./
